@@ -25,6 +25,12 @@ function CartItem({ product, index, onRemove, onEdit }) {
         setIsEditing(false);
     };
 
+    const handleKeyPress = (e) => {
+        if (e.key === "Enter") {
+            handleSave();
+        }
+    };
+
     return (
         <li>
             {isEditing ? (
@@ -33,6 +39,7 @@ function CartItem({ product, index, onRemove, onEdit }) {
                         type="text"
                         value={newName}
                         onChange={(e) => setNewName(e.target.value)}
+                        onKeyDown={handleKeyPress}
                     />
                     <button className="add-btn" onClick={handleSave}>Save</button>
                 </>

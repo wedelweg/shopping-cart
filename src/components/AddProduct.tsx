@@ -8,6 +8,12 @@ function AddProduct({ onAdd }) {
         setValue("");
     };
 
+    const handleKeyPress = (e) => {
+        if (e.key === "Enter") {
+            handleAdd();
+        }
+    };
+
     return (
         <div>
             <input
@@ -15,6 +21,7 @@ function AddProduct({ onAdd }) {
                 placeholder="Enter product name"
                 value={value}
                 onChange={(e) => setValue(e.target.value)}
+                onKeyDown={handleKeyPress}
             />
             <button className="add-btn" onClick={handleAdd}>Add Product</button>
         </div>
