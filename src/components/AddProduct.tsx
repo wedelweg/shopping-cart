@@ -7,7 +7,6 @@ function AddProduct({ onAdd }) {
         onAdd(value);
         setValue("");
     };
-
     const handleKeyPress = (e) => {
         if (e.key === "Enter") {
             handleAdd();
