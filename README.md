@@ -21,7 +21,6 @@ Deployed on **GitHub Pages**.
 ## 🛠️ Tech Stack
 - [React](https://reactjs.org/) — UI library
 - [Vite](https://vitejs.dev/) — build tool
-- [react-transition-group](https://reactcommunity.org/react-transition-group/) — animations
 - GitHub Pages — deployment
 
 ---
