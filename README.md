@@ -1,12 +1,46 @@
-# React + Vite
+# 🛒 Shopping Cart (React + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple **React + Vite** project that demonstrates state management, reusable components, and basic CRUD operations (add, edit, delete items).  
+Deployed on **GitHub Pages**.
 
-Currently, two official plugins are available:
+🌐 **Live Demo:** [View on GitHub Pages](https://wedelweg.github.io/shopping-cart/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
+- Add products to the cart
+- Delete products
+- Edit product names
+- **Enter key support**:
+    - Press Enter to add a new product
+    - Press Enter to save changes while editing
+- Smooth animations for adding/removing items using `react-transition-group`
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+- [React](https://reactjs.org/) — UI library
+- [Vite](https://vitejs.dev/) — build tool
+- [react-transition-group](https://reactcommunity.org/react-transition-group/) — animations
+- GitHub Pages — deployment
+
+---
+
+## ⚙️ Installation & Setup
+
+```bash
+# Clone the repository
+git clone https://github.com/wedelweg/shopping-cart.git
+cd shopping-cart
+
+# Install dependencies
+npm install
+
+# Run the dev server
+npm run dev
+
+# Build the project
+npm run build
+
+# Deploy to GitHub Pages
+npm run deploy
