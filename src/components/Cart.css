@@ -71,7 +71,7 @@
 }
 
 .edit-input {
-    flex: 1;
+    flex: 0.85; /* вместо flex: 1, чуть короче */
     padding: 10px 14px;
     border: 1px solid #ccc;
     border-radius: 6px;
