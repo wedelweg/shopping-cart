@@ -1,6 +1,7 @@
 # 🛒 Shopping Cart (React + Vite)
 
-A small React + Vite project that shows how to work with state and reusable components. It includes basic features like adding, editing, and deleting items in a shopping cart.
+A small **React + Vite** project that shows how to work with state and reusable components. It includes basic features like adding, editing, and deleting items in a shopping cart.  
+Deployed on **GitHub Pages**.
 
 🌐 **Live Demo:** [View on GitHub Pages](https://wedelweg.github.io/shopping-cart/)
 
