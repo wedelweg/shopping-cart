@@ -14,7 +14,6 @@ Deployed on **GitHub Pages**.
 - **Enter key support**:
     - Press Enter to add a new product
     - Press Enter to save changes while editing
-- Smooth animations for adding/removing items
 
 ---
 
