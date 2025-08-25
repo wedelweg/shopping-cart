@@ -48,6 +48,7 @@ function CartItem({ product, onRemove, onEdit }) {
             {isEditing ? (
                 <>
                     <input
+                        className="edit-input"
                         type="text"
                         value={newName}
                         onChange={(e) => setNewName(e.target.value)}
